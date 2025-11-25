@@ -41,12 +41,12 @@ pipeline {
         }
     }
     
-    post {
-        success {
-            echo 'Pipeline finished successfully! Visit:http://127.0.0.1:3000/index.html'
-        }
-        failure {
-            echo 'Pipeline failed! Check build logs.'
-        }
+   post {
+    success {
+        echo "Pipeline finished successfully! Visit: http://localhost/protfolio-main/index.html"
     }
+    failure {
+        echo "Pipeline failed! Check build logs."
+    }
+}
 }
