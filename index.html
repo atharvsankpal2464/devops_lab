@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">FITNESS CLUB</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Your Best Workout Starts Today!</h2>
+      <p>Join Us Today</p>
+      <a class="btn" href="about.html">Learn more</a>
+    </section>
+
+    <section class="projects">
+      <h3>aAbout Us</h3>
+      <ul>
+        <li>"We offer a wide range of classes, from high-intensity workouts to relaxing yoga sessions, tailored to all fitness levels."</li>
+        <li>"Experience our state-of-the-art facilities and equipment designed to elevate your workout experience and maximize your results."</li>
+        
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Fitness Club — <a href="mailto:you@example.com">adityapatil1050@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
